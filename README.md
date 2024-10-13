@@ -1,4 +1,4 @@
-## E-learning Landing Page Responsive Web Design with SCSS anv Vite
+## E-learning Landing Page Responsive Web Design with SCSS and Vite
 
 ### Mobile
 
