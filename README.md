@@ -8,13 +8,13 @@
 
 ### Tablet 768px
 
-<img src="img/result-snasphot-tablet1.png">
-<img src="img/result-snasphot-tablet2.png">
+<img src="img/result-snapsphot-tablet1.png">
+<img src="img/result-snapsphot-tablet2.png">
 
 ### Tablet Horizontal 1024px
 
-<img src="img/result-snasphot-tableth1.png">
-<img src="img/result-snasphot-tableth2.png">
+<img src="img/result-snapsphot-tableth1.png">
+<img src="img/result-snapsphot-tableth2.png">
 
 ### Tablet Desktop 1200px
 
