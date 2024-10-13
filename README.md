@@ -2,9 +2,9 @@
 
 ### Mobile
 
+<img src="img/result-snapshot-mobile1.png">
 <img src="img/result-snapshot-mobile2.png">
 <img src="img/result-snapshot-mobile3.png">
-<img src="img/result-snapshot-mobile1.png">
 
 ### Tablet 768px
 
