@@ -16,7 +16,7 @@
 <img src="img/result-snapshot-tableth1.png">
 <img src="img/result-snapshot-tableth2.png">
 
-### Tablet Desktop 1200px
+### Desktop 1200px
 
 <img src="img/result-snapshot-desktop1.png">
 <img src="img/result-snapshot-desktop2.png">
