@@ -1,0 +1,104 @@
+.hero{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    &__title{
+        margin-bottom:26px;
+        padding-top: 50px;
+        font-weight: 900;
+        font-size: 2.8em;
+        line-height: auto;
+    }
+    &__subtitle{
+        margin-bottom: 26px;
+        color: $grey;
+        line-height: 28px;
+        font-weight: 400;
+
+    }
+    &__buttons{
+        margin-bottom: 40px;
+    }
+    &__img{
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        text-align: center;
+
+        &-img{
+            @include breakpoint(tablet){
+                position: absolute;
+                right: -32px;
+                top: -100px;
+                width: auto;
+                height: auto;
+            }
+            @include breakpoint(tablethorizontal){
+                position: absolute;
+                right: -100px;
+                top: -132px;
+                max-width: 450px;
+                height: auto;
+            }
+            @include breakpoint(desktop){
+                position: absolute;
+                right: -190px;
+                top: -134px;
+                max-width: 450px;
+                height: auto;
+            }
+        }
+    }
+    &__number{
+        display: inline-block;
+        width: max-content;
+        background-color: white;
+        padding: 5px;
+        color: $black;
+        position: absolute;
+        box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+        border-radius: 10px;
+
+        span{
+            display: block;
+        }
+        &-title{
+            font-size: 14px;
+            font-weight: 700;
+            color: $grey;
+            
+        }
+        &-number{
+            font-size: 32px;
+            font-weight: 800;
+        }
+        &-1{
+            padding: 16px 20px 16px 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        &-2{
+            padding: 16px 45px 16px 20px;
+            position: absolute;
+            bottom: 0;
+            left: 26px;
+            @include breakpoint(tablet){
+                right: 180px;
+                left: auto;
+            }
+        }
+    }
+    .container{
+        @include breakpoint(tablet){
+            display: flex;
+        }
+    }
+    &__content{
+        margin-bottom: 20px;
+    }
+
+
+    
+}

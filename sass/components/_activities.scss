@@ -1,0 +1,53 @@
+.activities{
+    
+    &__header{
+        background-image: $gradient-pink-orange;
+        padding: 25px 30px 16px 30px;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        @include breakpoint(tablet){
+            padding-top: 56px;
+        }
+    }
+    &__item{
+        background-color: white;
+        padding: 56px 30px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        position: relative;
+        &-icon{
+            margin-bottom: 16px;
+            position: absolute;
+            top: -25px;
+        }
+        &-title{
+            color: $black;
+            font-size: 1.3em;
+            margin-bottom: 16px;
+        }
+        &-description{
+            color: $grey;
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 16px;
+            
+        }
+        &-cta{
+            display: inline-block;
+            margin-top: 16px;
+        }
+    }
+    .container{
+        @include breakpoint(tablet){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        @include breakpoint(desktop){
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+    }
+}

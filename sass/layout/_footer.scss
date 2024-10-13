@@ -1,0 +1,13 @@
+footer.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $black;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        @include reset-list();
+    }
+}
