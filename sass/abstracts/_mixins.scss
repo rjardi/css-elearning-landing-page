@@ -43,12 +43,19 @@
 @mixin button--pink-orange(){
   @include button();
   background-image: $gradient-pink-orange;
-
+  &:hover{
+    /* Gradient 1 Hover */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+   }
 }
 
 @mixin button--pink-blue(){
   @include button();
-  background-image: $gradient-pink-blue;
+    background-image: $gradient-pink-blue;
+    &:hover{
+      /* Gradient 2 Hover */
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  }
 
 }
 
@@ -57,5 +64,7 @@
   font-weight: bold;
   text-decoration: none;
   font-size: 18px;
-
+  &:hover{
+    color: #FFA7C3;
+  }
 }
