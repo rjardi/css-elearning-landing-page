@@ -1,5 +1,7 @@
 ## E-learning Landing Page Responsive Web Design with SCSS and Vite
 
+### Take a look!--> https://rjardi.github.io/css-elearning-landing-page/ 
+
 ### Mobile
 
 <img src="img/result-snapshot-mobile1.png">
